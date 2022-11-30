@@ -1,0 +1,765 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="44" y="293" width="142" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data input</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="102" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="False" />
+              <Name>Input</Name>
+              <Abbrev />
+              <ShowFieldMap value="True" />
+              <Optional value="False" />
+              <TextInput>
+                <Configuration>
+                  <NumRows value="1" />
+                  <Fields>
+                    <Field name="geom" />
+                  </Fields>
+                  <Data>
+                    <r>
+                      <c>polygon((-80.741237728 37.396332473,-80.677317334 37.319326737,-80.578440381 37.288740714,-80.430124952 37.2493975510001,-80.276316358 37.262514223,-80.0950419439999 37.306219965,-79.705027295 37.3280633160001,-79.4907938969999 37.3542669570001,-79.260081006 37.4851479550001,-78.9524638189999 37.733191043,-78.820627881 37.8417207100001,-78.760203077 38.0107085110001,-78.85908003 38.0323455170001,-78.9414774909999 38.092895141,-78.9854228029999 38.2138440050001,-78.961952133 38.2907069010001,-78.725746079 38.6176372840001,-78.412635727 39.007141672,-78.209388657 39.233013339,-78.220374985 39.29680775,-78.346717758 39.3393050930001,-78.6543349459999 39.29680775,-79.060829086 38.9003472140001,-79.351966782 38.518854178,-79.6980361179999 38.3294996430001,-79.763954086 38.3036401200001,-79.906276791 38.1863732590001,-79.972194759 38.043751566,-80.164455502 37.8921819780001,-80.312770931 37.670763763,-80.323757259 37.6316211390001,-80.741237728 37.396332473))</c>
+                    </r>
+                  </Data>
+                </Configuration>
+              </TextInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Input</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="209" y="293" width="1045" height="189" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data processing</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="342" y="365" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" field="type" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse geometry type</AnnotationText>
+              <DefaultAnnotationText><![CDATA[type = REGEX_Replace([geom], "(\w+?)\(.+\)", "$1")
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="450" y="365" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>geom</Field>
+              <RegExExpression value="\-?\d+?(?:\.\d*?)?\s\-?\d+(?:\.\d*)?" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="True" />
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+              </ParseComplex>
+              <Match>
+                <Field>id_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Split coordinate paris to rows</AnnotationText>
+              <DefaultAnnotationText>Split coordinate paris to rows</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="666" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="UniqueRecordID" action="GroupBy" rename="UniqueRecordID" />
+                <SummarizeField field="type" action="GroupBy" rename="type" />
+                <SummarizeField field="geom" action="Concat" rename="geom">
+                  <Concat_Start>[</Concat_Start>
+                  <Separator>],[</Separator>
+                  <Concat_End>]</Concat_End>
+                </SummarizeField>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Generate coordinate array</AnnotationText>
+              <DefaultAnnotationText>Generate coordinate array</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+                <Field name="geom" size="2147483647" source="Summarize: Concat - geom" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="558" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>geom</Field>
+              <RegExExpression value="(\-?\d+?(?:\.\d*?)?)\s(\-?\d+?(?:\.\d*?)?)" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="$1,$2">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>geom</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="V_WString" size="50000" />
+                <Field field="RegExOut2" type="V_WString" size="50000" />
+              </ParseComplex>
+              <Match>
+                <Field>id_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Format coordinate pairs</AnnotationText>
+              <DefaultAnnotationText>Format coordinate pairs</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="774" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" field="GeoJSON" size="2147483647" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Generate GeoJSON</AnnotationText>
+              <DefaultAnnotationText>GeoJSON = '{"type":"'+[type]+'","coordinates":'+IIF([type]="point",[geom],'[['+[...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+                <Field name="geom" size="2147483647" source="Summarize: Concat - geom" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="870" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="UniqueRecordID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="UniqueRecordID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_UniqueRecordID" selected="False" input="Left_" />
+                    <SelectField field="Right_UniqueRecordID" selected="False" input="Right_" />
+                    <SelectField field="Right_type" selected="False" input="Right_" />
+                    <SelectField field="Right_geom" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Append GeoJSON to initial dataset</AnnotationText>
+              <DefaultAnnotationText>Append GeoJSON to initial dataset</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="type" size="1073741823" source="Formula: REGEX_Replace([geom], &quot;(\w+?)\(.+\)&quot;, &quot;$1&quot;)" type="V_WString" />
+                <Field name="geom" size="2147483647" source="Summarize: Concat - geom" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+            <Position x="978" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <DetourRight value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+            <Position x="1170" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="GeoJSON" size="2147483647" source="Formula: '{&quot;type&quot;:&quot;'+[type]+'&quot;,&quot;coordinates&quot;:'+IIF([type]=&quot;point&quot;,[geom],'[['+[geom]+']]')+'}'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1074" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="GeoJSON" selected="True" type="SpatialObj" size="536870911" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Convert to spatial object</AnnotationText>
+              <DefaultAnnotationText>Convert to spatial object</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="234" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>UniqueRecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Generate unique record identifier</AnnotationText>
+              <DefaultAnnotationText>Generate unique record identifier</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UniqueRecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="geom" size="2147483647" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1277" y="293" width="152" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="1302" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Output</Name>
+              <Abbrev />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Output</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="953" y="41" width="210" height="229" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Interface</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+            <Position x="978" y="90" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Check Box SpatialObj</Name>
+              <AnnotationText>GeoJSON conversion</AnnotationText>
+              <DefaultAnnotationText>Check Box SpatialObj</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="978" y="186" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="SpatialObj">
+      <Origin ToolID="18" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Left" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Right" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="SpatialObj">
+      <Origin ToolID="17" Connection="Question" />
+      <Destination ToolID="18" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box SpatialObj</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Geom Parse</Name>
+      <Description>Geom to GeoJSON converter</Description>
+      <RootToolName>Geom Parse</RootToolName>
+      <ToolVersion>1.0</ToolVersion>
+      <ToolInDb value="False" />
+      <CategoryName>Laboratory</CategoryName>
+      <SearchTags>geom, geojson, json, spatial, centroid, spatialobj</SearchTags>
+      <Author>Florian Carrier</Author>
+      <Company>Alteryx</Company>
+      <Copyright>2022</Copyright>
+      <DescriptionLink actual="https://geojson.org/" displayed="The GeoJSON Specification (RFC 7946)" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="12a07b2f-98da-4a80-8e76-889378d27394" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="12a07b2f-98da-4a80-8e76-889378d27394" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="18" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>14/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (10)</Name>
+          <ToolId value="10" />
+          <Questions>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Field mapping</Description>
+              <Name>LabelGroup (23)</Name>
+              <ToolId value="23" />
+              <Questions>
+                <Question>
+                  <Type>MacroInput</Type>
+                  <Description />
+                  <Name>Macro Input (11)</Name>
+                  <ToolId value="11" />
+                </Question>
+                <Question>
+                  <Type>Label</Type>
+                  <Description>Note: The geom field name will be strandardised.</Description>
+                  <Name>Label (24)</Name>
+                  <ToolId value="24" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Output</Description>
+              <Name>LabelGroup (25)</Name>
+              <ToolId value="25" />
+              <Questions>
+                <Question>
+                  <Type>Label</Type>
+                  <Description>A new field named geojson will be generated, with a default GeoJSON data type.</Description>
+                  <Name>Label (26)</Name>
+                  <ToolId value="26" />
+                </Question>
+                <Question>
+                  <Type>BooleanGroup</Type>
+                  <Description>Convert to spatial object</Description>
+                  <Name>Check Box SpatialObj</Name>
+                  <ToolId value="17" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description />
+              <Name>Macro Output (12)</Name>
+              <ToolId value="12" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="11" Selected="True" />
+        <Tool ToolId="12" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
